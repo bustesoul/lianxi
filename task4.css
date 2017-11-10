@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background: white;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+    margin: 20px;
+
+}
+
+.container > div {
+    background-color: #FFF;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    width: 200px;
+}
+
+.main {
+    margin: 0 20px;
+    width: calc(100% - 200px - 120px - 40px);
+}
+
+.right {
+    width: 120px;
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+}
+
+span {
+    vertical-align: top;
+}
+
+a img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+a:nth-child(1) img {
+    margin-top: 0px; 
+}
